@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script async="" src="js/gtm.js"></script>
     <script type="text/javascript" id="CDA_AAS">
         window.cdaaas = window.cdaaas || {};
         window.cdaaas.SETTINGS = window.cdaaas.SETTINGS || {};
@@ -31,7 +30,7 @@
             tick: () => Date.now() - window.cdaaas.debugger.firstTick,
             logTick: (label) => window.cdaaas.debugger.logs.push({ [label]: window.cdaaas.debugger.tick() }),
         };
-    </script> 
+    </script>
     <link rel="preconnect" href="https://s.glbimg.com">
     <link rel="dns-prefetch" href="https://s.glbimg.com">
     <link rel="preconnect" href="https://s2.glbimg.com">
@@ -71,25 +70,10 @@
     <link rel="dns-prefetch" href="https://s03.video.glbimg.com">
     <link rel="preload" href="https://cdn.ampproject.org/v0.js" as="script">
     <script async="async" id="gpt_js" type="text/javascript" src="js/gpt.js"></script>
-    <script type="text/javascript">
-        var gptadslots = [];
-        var googletag = googletag || { cmd: [] };
-    </script>
     <script src="js/lib-pub-relay-g1-latest.js" defer=""></script>
     <script>
         window.utag_data = { "ad_custom_data": "tvg_pgStr=g1\/sp\/s\u00e3o paulo", "ad_site_page": "g1\/saopaulo", "ad_unit": "tvg_G1\/Sua_Regiao>Sudeste>Sao_Paulo", "bs_content_type": "noticia", "content_type": "materia", "cor_pagina": "#C4170C", "data_atualizacao": "Ate 2 anos", "data_publicacao": "Ate 2 anos", "dia_publicacao": "04-07-2023", "editoria": ["G1", "SP", "S\u00e3o Paulo"], "editoria_path": "sp\/sao-paulo", "editorias_secundarias": [], "ep": "False", "ext-bsafety": "conteudo seguro", "ext-advertiser": { "advertiser": ["colgate", "CEF", "apple", "unilever", "heineken"] }, "ext-ctx-mc": ["86", "27", "148", "13", "307", "189", "61", "166", "187", "80"], "ep_age_restriction": false, "page_name": "materia", "structure_tree": ["G1", "SP", "S\u00e3o Paulo"] };
     </script>
-    <script>
-        window.utag_data.gtm_loaded = true;
-    </script><!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-5PWZB8V');</script>
     <link rel="icon" href="images/g1-favicon.png">
     <link rel="icon" sizes="128x128" href="images/g1-favicon_1.png">
     <link rel="icon" sizes="152x152" href="images/g1-favicon_2.png">
@@ -137,24 +121,6 @@
     <link rel="amphtml"
         href="https://g1.globo.com/google/amp/sp/sao-paulo/noticia/2023/07/04/ze-celso-e-internado-apos-incendio-atingir-apartamento-onde-mora-em-sp.ghtml">
     <meta name="robots" content="max-image-preview:large">
-    <script data-schema="Organization" type="application/ld+json">
-{
-    "@type":"Organization",
-    "@context":"http://schema.org",
-    "name": "G1",
-    "url": "https://g1.globo.com",
-    "logo": {
-"@type": "ImageObject",
-"url": "https://s.glbimg.com/jo/g1/static/live/g1_amp/img/g1_logo_json_ld.png",
-"width": "94",
-"height": "60"
-    },
-    "parentOrganization": {
-"@type": "Organization",
-"@id": "https://redeglobo.globo.com/",
-"name": "Globo Comunicação e Participações S.A."
-    }}
-</script>
     <script id="globalWebdepsScript"
         data-version="2.3.0">((() => (e, t = document, r = window.performance, n = !1) => {
                 const s = () => {
@@ -295,24 +261,6 @@
 
         window.cdaaas.SETTINGS.PLATFORM_FROM_CHANNEL = settings.CHANNEL === 'smart' ? 'mobile' : settings.CHANNEL;
     </script>
-    <script id="SETTINGS">
-        cdaaas = window.cdaaas || {};
-        cdaaas.SETTINGS = {
-            HAS_GLOBOPAGE: true,
-            HAS_SCROLLSPY: true,
-            HAS_FEATURE_FLAG_SECTION: true,
-            ...cdaaas.SETTINGS,
-            SERVICE_WORKER: {
-                url: "https://g1.globo.com/sw.js",
-                active: true
-            }
-        }
-    </script>
-    <script>
-        window.glbFeatFlagConfig = { "clientUrl": "https:\/\/s3.glbimg.com\/v1\/AUTH_f75bb4776e3c4683acd769d47144995f\/feature-flag-client\/2.6.1\/featFlagClient.min.js", "clientInitUrl": "https:\/\/s3.glbimg.com\/v1\/AUTH_f75bb4776e3c4683acd769d47144995f\/feature-flag-client\/2.6.1\/featFlagClientInit.min.js", "tenantId": "g1", "category": "fd80c213-0574-418c-90ae-1d14c2f438b9", "clientVersion": "2.6.1", "env": "prod", "features": [{ "name": "g1Ux2023ThemeV3", "id": "g1Ux2023ThemeMcV3", "disabled": false, "label": "g1 ux2023 theme v3", "enabled": true, "stateIndex": 1, "contentCondition": "window.cdaaas.SETTINGS.HAS_UX2023_THEME", "ffCondition": "window.cdaaas.SETTINGS.FF_UX2023_THEME_VERSION === 3", "activationConfig": { "enableType": "cma", "isReadOnly": true, "cookieName": "g1ux23themev3", "classFFBase": "glb-ff-ux23theme" }, "states": [{ "nm": "classic", "si": 0, "ab": "control", "classes": ["glb-theme-classic", "glb-layout-classic", "glb-theme-elem-sharebar--default", "glb-layout-elem-content-blockquote--default", "glb-theme-elem-content-blockquote--default", "glb-layout-elem-quote--default", "glb-theme-elem-quote--default"], "isRemClasses": true }, { "nm": "ux2023", "si": 1, "ab": "new-design", "classes": ["glb-theme-ux2023", "glb-layout-ux2023", "glb-theme-elem-sharebar--touch", "glb-layout-elem-content-blockquote--box", "glb-theme-elem-content-blockquote--box", "glb-layout-elem-quote--card", "glb-theme-elem-quote--card"], "isRemClasses": true }] }, { "name": "g1Ux2023ThemeShape", "id": "g1Ux2023ThemeShapeV3", "disabled": false, "label": "g1 ux2023 theme shape v3", "enabled": true, "stateIndex": 1, "states": [{ "nm": "featsClassic", "si": 0, "classes": ["glb-theme-shape--cut", "glb-theme-feat-border--default", "glb-theme-feat-image--default"], "isRemClasses": true }, { "nm": "featsUX2023", "si": 1, "classes": ["glb-theme-shape--rounded", "glb-theme--force-style-posts", "glb-theme-feat-border--curve"], "isRemClasses": true }, { "nm": "featsUX2023ImgCard", "si": 2, "classes": ["glb-theme-shape--rounded", "glb-theme--force-style-posts", "glb-theme-feat-border--curve", "glb-theme-feat-image--card"], "isRemClasses": true }] }, { "name": "g1MenuJogosV1", "id": "g1MenuJogosV1", "disabled": false, "label": "menu section Jogos", "enabled": true, "stateIndex": 1, "activationConfig": { "enableType": "cma", "applyType": "ASSET" }, "states": [{ "nm": "noAsset", "si": 0 }, { "nm": "assetV1.0.0", "si": 1, "assets": [{ "url": "https:\/\/s3.glbimg.com\/v1\/AUTH_f75bb4776e3c4683acd769d47144995f\/menu-customizer\/1.0.0\/glbMenuCustomizerRunJogosLabel.min.js" }] }] }, { "name": "webWidgetLauncher", "id": "webWidgetLauncher", "disabled": false, "label": "web widget launcher", "enabled": true, "stateIndex": 1, "activationConfig": { "enableType": "cma", "applyType": "ASSET" }, "states": [{ "nm": "noAsset", "si": 0 }, { "nm": "assetV1.7.0", "si": 1, "assets": [{ "url": "https:\/\/s3.glbimg.com\/v1\/AUTH_f75bb4776e3c4683acd769d47144995f\/tools\/widget-launcher\/1.7.0\/widgetLauncherInit.min.js" }] }] }] };
-        window.glbFeatFlagConfig.isPreview = globalThis.cdaaas.SETTINGS.IS_PREVIEW && !window.glb.getCurrentEnv().includes('sandbox');
-    </script>
-    
     <style>
         :root {
             --glb-primary-color: #c4170c;
@@ -607,10 +555,6 @@
     <script async="" src="js/v0.js"></script>
     <script async="" custom-element="amp-social-share" src="js/amp-social-share-0.1.js"></script>
     <script async="" custom-element="amp-fit-text" src="js/amp-fit-text-0.1.js"></script>
-    <script async="" custom-element="amp-video" src="js/amp-video-0.1.js"></script>
-    <script>
-        window.utag_data.temas = ["colgate", "CEF", "apple", "unilever", "heineken"];
-    </script>
     <style>
         a,
         abbr,
@@ -6755,10 +6699,6 @@
     <link
         data-src="https://s3.glbimg.com/v1/AUTH_b002e0039b9f46a5a4a94ff667d31e2d/assets/dist/1f9507e9cb8490f6a728865180dac5d7.css"
         type="text/css" crossorigin="anonymous" rel="stylesheet" href="css/1f9507e9cb8490f6a728865180dac5d7.css">
-    <script src="js/cadun.js" async="" data-agent="global-webdeps"></script>
-    <script src="js/globo-ab.min_1.js" async="" data-agent="global-webdeps"></script>
-    <script src="js/globo-ab-v2.min.js" async="" data-agent="global-webdeps"></script>
-    <script src="js/globo-ab.min.js" async="" data-agent="global-webdeps"></script>
 </head>
 
 <body data-generated-at="27-08-2024 22:52:46" data-request-id="27f9ddec-de56-4733-af2a-023167708bdd"
@@ -7211,24 +7151,11 @@
                 </script>
                 <script async="" src="js/api.min.js" onerror="playerAssetsHandleError(this)"
                     onload="playerAssetsHandleLoad(this)" data-has-error=""></script>
-                <script>
-                    globalThis.playerAssetsConfig = {
-                        WM: { name: 'WM', url: 'https://s3.glbimg.com/v1/AUTH_e1b09a2d222b4900a437a46914be81e5/api/stable/web/api.min.js', label: 'player_api' },
-                        BSPLAYER: { name: 'bsPlayer', url: 'https://s3.glbimg.com/v1/AUTH_f75bb4776e3c4683acd769d47144995f/bs-player-g1/1.9.2/bs-player.min.js', label: 'bsplayer', wcId: 'bs-player' },
-                        LOGIN: { name: 'LoginScreen', url: 'https://s3.glbimg.com/cdn/libs/clappr-plugins/login-screen/1.2.1/player-plugin-login-screen.min.js', pluginName: 'LoginScreen', label: 'plugin_login' },
-                        REC: { name: 'VideoRecommendationPlugin', url: 'https://s3.glbimg.com/cdn/libs/clappr-plugins/video-recommendation/v2.2.2-g1/video-recommendation-plugin.js', pluginName: 'video-recommendation-flow-plugin', label: 'plugin_rec' },
-                        VIEWPORT: { name: 'ViewportPlayPlugin', url: 'https://s3.glbimg.com/v1/AUTH_f75bb4776e3c4683acd769d47144995f/viewport-play-plugin/v1.2.0/viewport-play-plugin.min.js', pluginName: 'viewport_play_plugin', label: 'plugin_viewport' },
-                        DETACH: { name: 'clapprDetachPlugin', url: 'https://s3.glbimg.com/v1/AUTH_f75bb4776e3c4683acd769d47144995f/detach-plugin/1.0.0/clapprDetachPlugin.min.js', pluginName: 'detach', label: 'plugin_detach', needsClappr: true, },
-                        CHARTBEAT: { name: 'ChartbeatPlugin', url: 'https://s3.glbimg.com/v1/AUTH_f75bb4776e3c4683acd769d47144995f/chartbeat-plugin/1.1.0/chartbeat-plugin.min.js', pluginName: 'chartbeat-plugin', label: 'plugin_chartbeat', isContainer: true },
-                    }
-                </script>
+                
                 <script async="" src="js/player-plugin-login-screen.min.js" onerror="playerAssetsHandleError(this)"
                     onload="playerAssetsHandleLoad(this)" data-has-error=""></script>
-                <script async="" src="js/video-recommendation-plugin.js" onerror="playerAssetsHandleError(this)"
-                    onload="playerAssetsHandleLoad(this)" data-has-error=""></script>
+                
                 <script async="" src="js/viewport-play-plugin.min.js" onerror="playerAssetsHandleError(this)"
-                    onload="playerAssetsHandleLoad(this)" data-has-error=""></script>
-                <script async="" src="js/clapprDetachPlugin.min.js" onerror="playerAssetsHandleError(this)"
                     onload="playerAssetsHandleLoad(this)" data-has-error=""></script>
                 <script async="" src="js/chartbeat-plugin.min.js" onerror="playerAssetsHandleError(this)"
                     onload="playerAssetsHandleLoad(this)" data-has-error=""></script>
