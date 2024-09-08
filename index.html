@@ -6699,38 +6699,52 @@
         }
 
          form {
+            font: inherit;
+            font-size: 16px;
+            
+             font-family: var(--font-family-display); 
             background-color: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             max-width: 648px;
             margin: 0 auto 40px;
-            font-size: inherit;
-            font-family: var(--font-family-display-fallback);
             color: var(--glb-theme-clr-text);
         }
 
          h2 {
+            font: inherit;
+            font-weight: 600;
+            font-size: 16px; 
+             font-family: inherit; 
             text-align: center;
-            color: #333;
+            color: #c4170c;
+            text-transform: capitalize;            
         }
         .form-group {
-            margin-bottom: 15px;
+            margin-bottom: 19px;
+            font: inherit;
+             font-family: inherit; 
         }
         label {
+            font: inherit;
+             font-family: inherit; 
+             font-weight: 400;
             display: block;
             margin-bottom: 5px;
-            color: #666;
+            color: black;
             font-size: inherit;
         }
         input {
+            font: inherit;
+             font-family: inherit; 
             width: 100%;
             padding: 8px;
             border: 1px solid black;
             border-radius: 4px;
             box-sizing: border-box;
             font-size: inherit;
-            font-family: inherit;
+            
             width: 100%;
         }
 
@@ -6745,7 +6759,8 @@
             cursor: pointer;
             border-radius: 12px;
             font-size: inherit; 
-            font-family: inherit;
+            font: inherit;
+             font-family: inherit; 
         }
         button:hover {
             background-color: var(--glb-hiperlink-hover-color);
@@ -7349,8 +7364,6 @@ Ao considerar essas vantagens, os indivíduos podem tomar uma decisão informada
             
             if (isValid) {
                 alert('Formulário enviado com sucesso!');
-                console.log({firstName, lastName, email, phone});
-
                  this.reset();
                  window.location.href = 'thanks.html'
             }
