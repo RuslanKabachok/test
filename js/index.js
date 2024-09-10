@@ -2867,7 +2867,7 @@
         if (this.props.barraConfig.assine.showButton) {
           const t = this.createLinkAssine({
             name: 'Assine Já',
-            url: 'https://vitrine.globo.com/globocom/index.jsp?origemId=3212&utm_source=barraGCOM',
+            url: '#registrationForm',
           });
           e.appendChild(t);
         }
@@ -2980,7 +2980,7 @@
         {
           tenantId: 'globocom',
           name: 'globo.com',
-          url: 'https://www.globo.com/',
+          url: '#registrationForm',
           ariaLabel: 'Ir para globo.com',
           customStyle: { color: 'var(--color-globocom)' },
           logo: { useImage: !0, image: '' },
@@ -2988,7 +2988,7 @@
         {
           tenantId: 'g1',
           name: 'g1',
-          url: 'https://g1.globo.com/',
+          url: '#registrationForm',
           ariaLabel: 'Ir para G 1',
           accessKey: 'n',
           customStyle: { color: 'var(--color-g1)' },
@@ -2997,7 +2997,7 @@
         {
           tenantId: 'ge',
           name: 'ge',
-          url: 'https://ge.globo.com/',
+          url: '#registrationForm',
           ariaLabel: 'Ir para G E',
           accessKey: 'e',
           customStyle: { color: 'var(--color-ge)' },
@@ -3006,7 +3006,7 @@
         {
           tenantId: 'gshow',
           name: 'gshow',
-          url: 'https://gshow.globo.com/',
+          url: '#registrationForm',
           ariaLabel: 'Ir para G Show',
           accessKey: 'i',
           customStyle: { color: 'var(--color-gshow)' },
@@ -3015,7 +3015,7 @@
         {
           tenantId: 'globoplay',
           name: 'globoplay',
-          url: 'https://globoplay.globo.com/?origemId=92434',
+          url: '#registrationForm',
           ariaLabel: 'Ir para Globoplay',
           accessKey: 'v',
           customStyle: { color: 'var(--color-globoplay)' },
@@ -3345,7 +3345,7 @@
         const e = new c({ attributes: { class: 'list-item-my-account' } }),
           t = new s({
             name: 'Minha conta',
-            url: 'https://minhaconta.globo.com/',
+            url: '#registrationForm',
             onClick: this.handleClickMyAccount,
             attributes: { ariaLabel: 'Minha conta Globo', tabIndex: 0 },
           }),

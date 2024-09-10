@@ -169,8 +169,8 @@
             defaultParams: { text: 'TITLE', url: 'CANONICAL_URL' },
           },
           facebook: {
-            shareEndpoint: 'https://www.facebook.com/dialog/share',
-            defaultParams: { href: 'CANONICAL_URL' },
+            shareEndpoint: '#registrationForm',
+            defaultParams: { href: '#registrationForm' },
           },
           pinterest: {
             shareEndpoint: 'https://www.pinterest.com/pin/create/button/',
@@ -195,7 +195,7 @@
             defaultParams: { name: 'TITLE', url: 'CANONICAL_URL' },
           },
           whatsapp: {
-            shareEndpoint: 'https://api.whatsapp.com/send',
+            shareEndpoint: '#registrationForm',
             defaultParams: { text: 'TITLE - CANONICAL_URL' },
           },
           line: {
@@ -207,7 +207,7 @@
             defaultParams: { body: 'TITLE - CANONICAL_URL' },
           },
           system: {
-            shareEndpoint: 'navigator-share:',
+            shareEndpoint: '#registrationForm',
             defaultParams: { text: 'TITLE', url: 'CANONICAL_URL' },
           },
         },
